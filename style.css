@@ -1,37 +1,24 @@
 html {
     background: #e3e3e3;
-    background-image: url(lasersharknew.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("lasersharknew.jpg");
     background-size: cover;
     height: 100vh;
     background-position: center;
-    opacity: 0.4;
+    margin: 0 auto;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
     padding: 40px;
     color: black;
-    border-top: 20px solid #242424;
+    border-top: 20px solid purple;
+    border-bottom: 20px solid purple;
 }
 
-h1 {
-    font-size: 3em;
-    margin: 0;
+.genres {
+    font-size: 1.5em;
 }
 
-p {
-    line-height: 1.4em;
-}
-
-#blog {
-    border-top: 1px dotted #ccc;
-}
-
-.blog-post {
-    border-bottom: 1px dotted #ccc;
-}
-
-.contact {
-
+h3 {
+    font-size: 2em;
 }
